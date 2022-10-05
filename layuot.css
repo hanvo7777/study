@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(212, 144, 33);
+}
+
+body {
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+header,
+div,
+section,
+aside,
+footer {
+    padding: 20px 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    background-color: rgb(243, 201, 147);
+}
+
+section {
+    /* width: 600px; */
+    /* width: 66.67%; */
+    float: left;
+    width: calc(100% - 200px);
+}
+
+aside {
+    /* width: 300px; */
+    /* width: 33.33%; */
+    width: 200px;
+
+}
+
+.aside1 {
+    float: left;
+}
+
+.aside2 {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    clear: both;
+}
+
+p {
+    font: 14px;
+    font-weight: 400;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 50px;
+    column-rule: 2px solid #fff;
+    text-align: left;
+}
+
+.position {
+
+    width: 200px;
+}
+
+.p-absolute {
+    background-color: greenyellow;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+
+.p-relative {
+    left: 30px;
+    bottom: 40px;
+    position: relative;
+    background-color: red;
+}
+
+.p-fixed {
+    position: fixed;
+    top: 20px;
+    right: 250px;
+    z-index: 1;
+    background-color: aqua;
+}
+
+section {
+    position: relative;
+}
+
+footer {
+    height: 100vh;
+}
+
+.p-sticky {
+    top: 10px;
+    background-color: yellow;
+    position: sticky;
+}
