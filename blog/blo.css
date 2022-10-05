@@ -2,18 +2,22 @@
     width: 150px;
     height: 150px;
 }
+
 .row-item {
     margin-bottom: 10px;
 }
+
 .item {
     background: #fff;
     margin-bottom: 15px;
 }
+
 .row.container {
     background: #ccc;
     margin: auto;
     max-width: 1295px;
 }
+
 div#navbarNavDropdown {
     justify-content: end;
 }
