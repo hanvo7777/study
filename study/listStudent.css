@@ -1,0 +1,17 @@
+table {
+    width: 80%;
+    border: 1px solid #000;
+    margin: auto;
+    background: beige;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    border: 1px solid #000;
+    padding: 5px;
+}
